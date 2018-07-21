@@ -1,6 +1,6 @@
 package Element;
 
-public class BoardGame {
+public class BoardGame implements Genre {
     private String name;
     private int numberOfPlayers;
     public String getName()
