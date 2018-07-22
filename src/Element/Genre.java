@@ -1,4 +1,5 @@
 package Element;
 
-public interface Genre {
+public enum Genre {
+
 }
