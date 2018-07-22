@@ -1,26 +1,28 @@
 package Element;
 
+import java.util.EnumSet;
+import java.util.HashMap;
+import java.util.Map;
+
 public enum Genre {
-    CARDGAME,
-    BOARDGAME,
-    UNKNOWN;
-    public String returnString (Genre genre){
-        if (genre.equals(Genre.CARDGAME)){
-            return "Card game";
-        }else if (genre.equals(Genre.BOARDGAME)){
-            return "Board game";
-        } else{
-            return "Type unknown";
+    CARDGAME("Card game"),
+    BOARDGAME("Board game"),
+    UNKNOWN("Bad declaration");
+    private String name;
+    private static final HashMap<String,Genre> reverseLookUp = new HashMap<String,Genre>();
+
+    static{
+        for(Genre genre: values()){
+            reverseLookUp.put(genre.getName(),genre);
         }
     }
-    public Genre returnType (String type){
-        if (type.equals("Card")||type.equals("card")){
-            return Genre.CARDGAME;
-        }else if (type.equals("Board") || type.equals("board"))
-        {
-            return Genre.BOARDGAME;
-        }else {
-            return Genre.UNKNOWN;
-        }
+
+    Genre(String name){
+        this.name=name;
+    }
+    public String getName(){return name;}
+
+    public static Genre getByValue(String name){
+        return reverseLookUp.get(name);
     }
 }
