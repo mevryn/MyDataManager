@@ -125,7 +125,7 @@ public class Manager {
             for (BoardGame boardGame:boardGames) {
                 sb.append(boardGame).append("<br>");
             }
-            File yourFile = new File("C:/JavaFiles/MyBoardGameDataBase.html");
+            File yourFile = new File("C:\\JavaFiles\\MyBoardGameDataBase.html");
             yourFile.createNewFile(); // if file already exists will do nothing
             FileWriter writer = new FileWriter(yourFile, false);
             writer.write(sb.toString());
@@ -138,8 +138,7 @@ public class Manager {
     }
     public void writeIntoFile() {
         try {
-
-            File yourFile = new File("C:/JavaFiles/MyBoardGameDataBase.txt");
+            File yourFile = new File("C:\\JavaFiles\\MyBoardGameDataBase.txt");
             yourFile.createNewFile(); // if file already exists will do nothing
             FileOutputStream fileOut = new FileOutputStream(yourFile);
             ObjectOutputStream out = new ObjectOutputStream(fileOut);
