@@ -97,7 +97,7 @@ public class Manager {
 
     }
     public void writeInto(){
-        System.out.println("Where do you want to write your list of Games? \n 'console' for console \n 'file' into file");
+        System.out.println("Where do you want to write your list of Games? \n'console' for console \n'file' into file\n'html' into html");
         while (true){
             Scanner input = new Scanner(System.in);
             String command = input.nextLine().toLowerCase();
@@ -110,12 +110,32 @@ public class Manager {
                     writeIntoFile.execute();
                     this.writeIntoFile();
                     return;
+                case "html":
+                    writeIntoHTML();
+                    return;
                     default:
                         System.out.println("Provided wrong command");
             }
         }
     }
 
+    public void writeIntoHTML(){
+        try {
+            StringBuilder  sb = new StringBuilder();
+            for (BoardGame boardGame:boardGames) {
+                sb.append(boardGame).append("<br>");
+            }
+            File yourFile = new File("C:/JavaFiles/MyBoardGameDataBase.html");
+            yourFile.createNewFile(); // if file already exists will do nothing
+            FileWriter writer = new FileWriter(yourFile, false);
+            writer.write(sb.toString());
+            writer.close();
+
+        }
+        catch(IOException e){
+            e.printStackTrace();;
+        }
+    }
     public void writeIntoFile() {
         try {
 
@@ -138,16 +158,10 @@ public class Manager {
         }
     }
     public void printGamesToConsole() {
-        StringBuilder output = new StringBuilder();
-        output.append("List of Games:\n");
         try {
-
             for (BoardGame element : this.boardGames) {
-                output.append(element.getName()).append(':');
-                output.append(element.getGenre().getName()).append(':').append(element.getNumberOfPlayers());
-                output.append('\n');
+               System.out.println(element);
             }
-            System.out.println(output.toString());
         }catch (NullPointerException e){
             System.out.println("In some reason some value is null");
         }

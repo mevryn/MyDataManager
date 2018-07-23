@@ -17,4 +17,10 @@ public class BoardGame implements Serializable {
         this.numberOfPlayers = numberOfPlayers;
         this.genre = genre;
     }
+    public String toString(){
+        StringBuilder sb = new StringBuilder();
+        sb.append(this.getName()).append(" : ");
+        sb.append(this.getGenre().getName()).append(" : ").append(this.getNumberOfPlayers());
+        return sb.toString();
+    }
 }
