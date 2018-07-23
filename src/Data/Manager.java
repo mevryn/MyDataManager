@@ -4,13 +4,13 @@ import Command.Command;
 import Command.Status;
 import Element.BoardGame;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.InputMismatchException;
-import java.util.List;
-import java.util.Scanner;
+import java.io.*;
+import java.util.*;
+
 import Command.Add;
 import Element.Genre;
+import Command.WriteToFile;
+import Command.Delete;
 
 public class Manager {
     private Status status;
@@ -22,23 +22,39 @@ public class Manager {
     {
         Scanner input = new Scanner(System.in);
         while(status==Status.ACTIVE){
-            System.out.println("Insert command : \n 'add' to add new Game, \n 'exit' to Quit, \n 'write' to show options of writing");
+            System.out.println("Insert command : \n'add' to add new Game,\n'write' to show options of writing\n'delete' to delete element from list\n'exit' to Quit, ");
             String command = input.nextLine().toLowerCase();
             int numberOfPlayers;
-            if(command.equals("add")) {
-                Command add = new Add(this);
-                add.execute();
-            }else if (command.equals("exit")) {
-                System.out.println("Bye bye");
-                status = Status.STOP;
-            }else if(command.equals("write")) {
-                this.writeInto();
-            }
-            else {
-                this.wrongCommandHandle(); //If provided command is not correct
+            switch (command){
+                case "add":
+                    Command add = new Add(this);
+                    add.execute();
+                    break;
+                case "delete":
+                    consoleDelete();
+                    break;
+                case "exit":
+                    System.out.println("Bye bye");
+                    status = Status.STOP;
+                    break;
+                case "write":
+                    this.writeInto();
+                    break;
+                default:
+                    this.wrongCommandHandle();      //If provided command is not correct
+                    break;
             }
         }
         return;
+    }
+
+    public void consoleDelete(){
+        Delete delete = new Delete(this);
+        Scanner input = new Scanner(System.in);
+        System.out.println("Type name of game you want to delete");
+        printGamesToConsole();
+        String nameOfGame = input.nextLine();
+        delete.execute(findBoardGameByName(nameOfGame));
     }
     public void addElement() {
         String name;
@@ -49,9 +65,9 @@ public class Manager {
                 name = input.nextLine();
                 System.out.println("Insert maximum players that can play the game at one time");
                 numberOfPlayers = input.nextInt();
-                System.out.println("Instert game type, 'BOARDGAME' for Board games and 'CARDGAME' for Card games");
+                System.out.println("Instert game type, 'Board game' for Board games and 'Card game' for Card games");
                 input.nextLine();
-                String genreOfGame = input.nextLine().toUpperCase();
+                String genreOfGame = input.nextLine();
                 this.boardGames.add(new BoardGame(name, numberOfPlayers,Genre.getByValue(genreOfGame)));
             } catch (InputMismatchException e) {
                 System.out.println("Wrong argument, try again");
@@ -62,9 +78,26 @@ public class Manager {
     public  void wrongCommandHandle(){
         System.out.println("Wrong Command");
     }
+    public BoardGame findBoardGameByName(String name) {
+        for (BoardGame boardGame : boardGames) {
+            if (boardGame.getName().equals(name)) {
+                return boardGame;
+            }
+        }
+        return null;
+    }
+    public void delete(BoardGame boardGameToDelete){
+        Iterator<BoardGame> iter = boardGames.iterator();
+        while(iter.hasNext()){
+            BoardGame boardGame = iter.next();
+            if(boardGame.getName().equals(boardGameToDelete.getName())){
+                iter.remove();
+            }
+        }
 
+    }
     public void writeInto(){
-        System.out.println("Where do you want to write your list of Games? \n 'console' for console");
+        System.out.println("Where do you want to write your list of Games? \n 'console' for console \n 'file' into file");
         while (true){
             Scanner input = new Scanner(System.in);
             String command = input.nextLine().toLowerCase();
@@ -72,17 +105,37 @@ public class Manager {
                 case "console":
                     this.printGamesToConsole();
                     return;
-                case "html":
-                    break;
+                case "file":
+                    Command writeIntoFile = new WriteToFile(this);
+                    writeIntoFile.execute();
+                    this.writeIntoFile();
+                    return;
                     default:
                         System.out.println("Provided wrong command");
-
-
             }
         }
     }
-    public void writeIntoJSON(){
 
+    public void writeIntoFile() {
+        try {
+
+            File yourFile = new File("C:/JavaFiles/MyBoardGameDataBase.txt");
+            yourFile.createNewFile(); // if file already exists will do nothing
+            FileOutputStream fileOut = new FileOutputStream(yourFile);
+            ObjectOutputStream out = new ObjectOutputStream(fileOut);
+            try {
+                out.writeObject(boardGames);
+                out.close();
+                fileOut.close();
+                System.out.println("List of games are saved in C:/MyBoardGameDataBase.txt");
+            }catch (NotSerializableException e){
+                System.out.println("Objects of class are not serializable for some reason");
+            }
+
+        }
+        catch(IOException e){
+            e.printStackTrace();;
+        }
     }
     public void printGamesToConsole() {
         StringBuilder output = new StringBuilder();
@@ -99,6 +152,18 @@ public class Manager {
             System.out.println("In some reason some value is null");
         }
 
+    }
+    public void readFromFile(){
+        try{
+            FileInputStream fileIn = new FileInputStream("C:/JavaFiles/MyBoardGameDataBase.txt");
+            ObjectInputStream in = new ObjectInputStream(fileIn);
+            boardGames =(ArrayList<BoardGame>) in.readObject();
+        }catch (IOException i)
+        {
+            i.printStackTrace();
+        }catch (ClassNotFoundException c){
+            System.out.println(c);
+        }
     }
 }
 

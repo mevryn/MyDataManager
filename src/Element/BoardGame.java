@@ -1,6 +1,8 @@
 package Element;
 
-public class BoardGame {
+import java.io.Serializable;
+
+public class BoardGame implements Serializable {
     private final String name;
     private final int numberOfPlayers;
     private final Genre genre;

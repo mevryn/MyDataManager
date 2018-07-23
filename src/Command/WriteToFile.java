@@ -1,16 +1,14 @@
 package Command;
+
 import Data.Manager;
-import Element.BoardGame;
 
-public class Add implements Command {
+public class WriteToFile implements Command {
     private Manager manager;
-
-    public Add(Manager manager){
+    public WriteToFile(Manager manager){
         this.manager=manager;
     }
     @Override
     public void execute(){
-        manager.addElement();
+        manager.writeIntoFile();
     }
-
 }

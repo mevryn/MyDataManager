@@ -9,7 +9,7 @@ public enum Genre {
     BOARDGAME("Board game"),
     UNKNOWN("Bad declaration");
     private String name;
-    private static final HashMap<String,Genre> reverseLookUp = new HashMap<String,Genre>();
+    private static final Map<String,Genre> reverseLookUp = new HashMap<String,Genre>();
 
     static{
         for(Genre genre: values()){
