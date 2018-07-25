@@ -1,14 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57e5d0ca-dc6b-4711-9f5c-36d939d90d8b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../MyDatabase/MyDatabase.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyDatabase/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../MyDatabase/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyDatabase/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyDatabase/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyDatabase/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyDatabase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyDatabase/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6c6f7045-3a82-4a28-bbc4-4df4ef5ccdc6" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Element/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Element/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Data/ManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyDatabase.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyDatabase.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/MyDatabase.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/MyDatabase.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Command/Add.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Command/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Command/Delete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Command/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/WriteToFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Command/WriteToFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/DataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/DataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Element/BoardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Element/BoardGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Element/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Element/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +41,10 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/MyDatabase$Main.ic" NAME="Main Coverage Results" MODIFIED="1532294068757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -25,20 +52,44 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MyDatabase" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MyDatabase" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MyDatabase" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MyDatabase" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="MyDatabase" />
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Manager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MyDatabase/src/Data/Manager.java">
+    <leaf>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2074">
-              <caret line="126" column="13" selection-start-line="126" selection-start-column="13" selection-end-line="126" selection-end-column="13" />
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,22 +97,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyDatabase.ipr" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../MyDatabase/MyDatabase.ipr">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="BufferUtils.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/78c50ebda5784937ca1615fc0e1d0cb35857d572/commons-collections-3.2.2-sources.jar!/org/apache/commons/collections/BufferUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2234">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyDatabase.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MyDatabase/MyDatabase.iml">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoardGame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Element/BoardGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Element/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Element.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Element/Element.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="DataProvider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MyDatabase/src/Data/DataProvider.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Data/DataProvider.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
@@ -69,20 +151,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoardGame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MyDatabase/src/Element/BoardGame.java">
+      <file leaf-file-name="Manager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Data/Manager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="102">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+              <folding>
+                <element signature="e#317#328#0" expanded="true" />
+                <element signature="e#2788#2789#0" expanded="true" />
+                <element signature="e#2839#2840#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Genre.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MyDatabase/src/Element/Genre.java">
+      <file leaf-file-name="ManagerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Data/ManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,23 +177,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MyDatabase/src/Main.java">
+      <file leaf-file-name="Genre.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Element/Genre.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            <state relative-caret-position="68">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MyDatabase/README.md">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MyDatabase/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -114,81 +191,318 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
-        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
-        <option value="JUnit3 Test Class" />
-        <option value="Gradle Kotlin DSL Build Script" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>upper</find>
-      <find>delete</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../MyDatabase" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GroovyConsoleState">
-    <option name="list">
-      <list>
-        <Entry>
-          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy" />
-          <option name="moduleName" value="" />
-          <option name="title" value="MyDatabase (Bundled Groovy 2.4.12)" />
-        </Entry>
-      </list>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$" value="C:\Gradle\gradle-4.9" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4.9" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="MyDatabase" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="MyDatabase" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'MyDatabase'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'MyDatabase'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'MyDatabase'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'MyDatabase'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'MyDatabase'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'MyDatabase'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'MyDatabase'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'MyDatabase'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'MyDatabase'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3064896963851" />
+        <entry key="$PROJECT_DIR$/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1671544390" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="MyDatabase" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="C:/Gradle/gradle-4.9/lib/ant-1.9.11.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/ant-launcher-1.9.11.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/gradle-base-services-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/gradle-base-services-groovy-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/gradle-build-cache-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/gradle-build-option-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/gradle-cli-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/gradle-core-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/gradle-core-api-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/gradle-docs-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/gradle-installation-beacon-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/gradle-jvm-services-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/gradle-kotlin-dsl-0.18.4.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/gradle-kotlin-dsl-provider-plugins-0.18.4.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/gradle-kotlin-dsl-tooling-builders-0.18.4.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/gradle-kotlin-dsl-tooling-models-0.18.4.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/gradle-launcher-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/gradle-logging-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/gradle-messaging-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/gradle-model-core-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/gradle-model-groovy-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/gradle-native-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/gradle-persistent-cache-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/gradle-process-services-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/gradle-resources-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/gradle-runtime-api-info-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/gradle-tooling-api-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/gradle-wrapper-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/groovy-all-2.4.12.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-announce-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-antlr-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-build-cache-http-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-build-comparison-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-build-init-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-code-quality-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-composite-builds-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-dependency-management-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-diagnostics-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-ear-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-ide-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-ide-native-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-ide-play-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-ivy-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-jacoco-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-javascript-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-language-groovy-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-language-java-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-language-jvm-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-language-native-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-language-scala-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-maven-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-osgi-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-platform-base-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-platform-jvm-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-platform-native-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-platform-play-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-plugin-development-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-plugin-use-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-plugins-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-publish-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-reporting-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-resources-gcs-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-resources-http-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-resources-s3-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-resources-sftp-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-scala-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-signing-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-test-kit-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-testing-base-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-testing-junit-platform-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-testing-jvm-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-testing-native-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-tooling-api-builders-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-version-control-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/gradle-workers-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.9/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Element/item.java" />
-        <option value="$PROJECT_DIR$/src/Element/BoardGame.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Element/Genre.java" />
-        <option value="$PROJECT_DIR$/src/Database.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Database.java" />
-        <option value="$PROJECT_DIR$/src/Database.java" />
-        <option value="$PROJECT_DIR$/src/Data.java" />
-        <option value="$PROJECT_DIR$/src/DataProvider.java" />
-        <option value="$PROJECT_DIR$/src/CommandProvider.java" />
-        <option value="$PROJECT_DIR$/src/Command/Status.java" />
-        <option value="$PROJECT_DIR$/src/Manager.java" />
-        <option value="$PROJECT_DIR$/src/Data/DataProvider.java" />
-        <option value="$PROJECT_DIR$/src/Command/CommandProvider.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Element/BoardGame.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Manager.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Data/DataProvider.java" />
-        <option value="$PROJECT_DIR$/src/Command/CommandProvider.java" />
-        <option value="$PROJECT_DIR$/src/Command/Add.java" />
-        <option value="$PROJECT_DIR$/src/Command/Command.java" />
-        <option value="$PROJECT_DIR$/src/Element/BoardGame.java" />
-        <option value="$PROJECT_DIR$/src/Element/Genre.java" />
-        <option value="$PROJECT_DIR$/src/Data/Manager.java" />
-        <option value="$PROJECT_DIR$/src/Element/Genre.java" />
-        <option value="$PROJECT_DIR$/src/Command/Write.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Command/WriteToFile.java" />
-        <option value="$PROJECT_DIR$/src/Command/Command.java" />
-        <option value="$PROJECT_DIR$/src/Command/Add.java" />
-        <option value="$PROJECT_DIR$/src/Command/Delete.java" />
-        <option value="$PROJECT_DIR$/src/Element/BoardGame.java" />
-        <option value="$PROJECT_DIR$/src/Data/Manager.java" />
-        <option value="$PROJECT_DIR$/src/Data/ManagerTest.java" />
-        <option value="$PROJECT_DIR$/src/Data/ManagerTestTest.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Data/Manager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/Data/ManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Element/Element.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Element/BoardGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Element/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Data/Manager.java" />
       </list>
     </option>
   </component>
@@ -197,48 +511,73 @@
     <option name="width" value="976" />
     <option name="height" value="1047" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="MyDatabase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="MyDatabase" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyDatabase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyDatabase" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyDatabase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyDatabase" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyDatabase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyDatabase" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyDatabase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyDatabase" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyDatabase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="Data" />
     </key>
-    <key name="ExtractSuperBase.RECENT_KEYS">
-      <recent name="Command" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
-      <recent name="junit.framework.TestCase" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MyDatabase\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -253,43 +592,66 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.build">
-    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+  <component name="RunManager" selected="Gradle.MyDatabase [test]">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="MyDatabase" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <module name="MyDatabase_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="build" type="GradleRunConfiguration" factoryName="Gradle">
+    <configuration name="MyDatabase [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="build.gradle" />
+            <option value="jar" />
           </list>
         </option>
-        <option name="vmOptions" value="" />
+        <option name="vmOptions" />
       </ExternalSystemSettings>
     </configuration>
-    <configuration name="All in MyDatabase" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="MyDatabase" />
+    <configuration name="MyDatabase [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+    </configuration>
+    <configuration name="ManagerTest.samleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyDatabase_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="Data" />
+      <option name="MAIN_CLASS_NAME" value="Data.ManagerTest" />
+      <option name="METHOD_NAME" value="samleTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
@@ -336,352 +698,158 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Gradle.build" />
-      <item itemvalue="JUnit.All in MyDatabase" />
+      <item itemvalue="Gradle.MyDatabase [jar]" />
+      <item itemvalue="JUnit.ManagerTest.samleTest" />
+      <item itemvalue="Gradle.MyDatabase [test]" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.MyDatabase [test]" />
+        <item itemvalue="JUnit.ManagerTest.samleTest" />
+        <item itemvalue="Gradle.MyDatabase [jar]" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration>C:\Users\micha\AppData\Roaming\Subversion</configuration>
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="57e5d0ca-dc6b-4711-9f5c-36d939d90d8b" name="Default" comment="" />
-      <created>1531246106371</created>
+      <changelist id="6c6f7045-3a82-4a28-bbc4-4df4ef5ccdc6" name="Default" comment="" />
+      <created>1532455339774</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1531246106371</updated>
+      <updated>1532455339774</updated>
     </task>
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+  <component name="TestHistory">
+    <history-entry file="ManagerTest_samleTest - 2018.07.24 at 20h 18m 26s.xml">
+      <configuration name="ManagerTest.samleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyDatabase_[test] - 2018.07.24 at 20h 18m 42s.xml">
+      <configuration name="MyDatabase [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4978678" weight="0.32897604" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.51119405" side_tool="true" visible="true" weight="0.32897604" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48667377" weight="0.32897604" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49840087" weight="0.32897604" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.48880598" visible="true" weight="0.32897604" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47402596" visible="true" weight="0.32675907" />
-      <window_info anchor="right" id="Gradle" order="8" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Build" weight="0.32897604" />
+      <window_info anchor="right" id="Gradle" visible="true" weight="0.32995737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4936034" weight="0.39869282" />
-      <window_info id="Favorites" order="5" sideWeight="0.52597404" side_tool="true" visible="true" weight="0.32675907" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32995737" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4989339" weight="0.32897604" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4978678" weight="0.32897604" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Data/Manager.java</url>
-          <line>66</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Command/Delete.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/Element/Genre.java</url>
-          <line>11</line>
-          <properties field="reverseLookUp" class="Element.Genre" />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="22" />
-    </breakpoint-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="watch">
-      <expression>
-        <expression-string>Genre.reverseLookUp</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>Element.Genre</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>reverseLookUp</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/MyDatabase.iml" />
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/src/Database.java" />
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/src/Main.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/78c50ebda5784937ca1615fc0e1d0cb35857d572/commons-collections-3.2.2-sources.jar!/org/apache/commons/collections/BufferUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="-2234">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/src/Element/Item.java" />
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/src/Database.java" />
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/src/Data.java" />
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/src/Data/DataManager.java" />
-    <entry file="file://D:/EscapeFromDungeon/src/game/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153" />
-      </provider>
-    </entry>
-    <entry file="file://D:/EscapeFromDungeon/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26044">
-          <caret line="1593" selection-start-line="1593" selection-end-line="1593" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/src/Manager.java" />
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/src/Command/CommandProvider.java" />
-    <entry file="file://D:/EscapeFromDungeon/src/command/invoker/CommandInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/EscapeFromDungeon/src/command/Command.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/EscapeFromDungeon/src/CommandLineProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/EscapeFromDungeon/src/command/Finish.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/EscapeFromDungeon/src/command/Go.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/io/FileInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="243" column="23" selection-start-line="243" selection-start-column="23" selection-end-line="243" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/EscapeFromDungeon/src/CommandParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/EscapeFromDungeon/src/command/CommandProvider.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="859" selection-start-line="859" selection-end-line="859" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/io/BufferedWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="226" selection-start-line="226" selection-end-line="226" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/io/Writer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="162" selection-start-line="162" selection-end-line="162" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="882" selection-start-line="882" selection-end-line="882" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/io/ObjectOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="348" selection-start-line="348" selection-end-line="348" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/src/Command/Write.java" />
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/src/Command/Add.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/src/Command/Command.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Data/ManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/io/ObjectStreamClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10438">
-          <caret line="688" selection-start-line="688" selection-end-line="688" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/src/Command/Status.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-882">
-          <caret line="890" selection-start-line="890" selection-end-line="890" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/src/Command/WriteToFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/src/Command/Delete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/src/Data/ManagerTest.java" />
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/src/Data/ManagerTestTest.java" />
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/.idea/uiDesigner.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/.idea/modules.xml" />
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/src/Element/Genre.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/src/Element/BoardGame.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Element/BoardGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/src/Data/DataProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Element/Genre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Element/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Element/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/DataProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/src/Data/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2074">
-          <caret line="126" column="13" selection-start-line="126" selection-start-column="13" selection-end-line="126" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#317#328#0" expanded="true" />
+            <element signature="e#2788#2789#0" expanded="true" />
+            <element signature="e#2839#2840#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/MyDatabase.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MyDatabase/MyDatabase.ipr">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -736,11 +904,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>MyDatabase</last-edited>
+          <last-edited>MyDatabase_main|MyDatabase</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -760,6 +929,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Gradle: com.googlecode.json-simple:json-simple:1.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
