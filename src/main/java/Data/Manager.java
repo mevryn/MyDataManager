@@ -11,12 +11,17 @@ import Command.Add;
 import Element.Genre;
 import Command.WriteToFile;
 import Command.Delete;
+import org.json.simple.JSONObject;
 
 public class Manager {
+
     private Status status;
-    List<BoardGame> boardGames= new ArrayList<BoardGame>();
-    public Manager( ){
+    private List<BoardGame> boardGames= new ArrayList<BoardGame>();
+    private FileDataProvider fileDataProvider;
+
+    public Manager(FileDataProvider fileDataProvider){
         status = Status.ACTIVE;
+        this.fileDataProvider=fileDataProvider;
     }
     public void getCommand()
     {
@@ -125,11 +130,11 @@ public class Manager {
             for (BoardGame boardGame:boardGames) {
                 sb.append(boardGame).append("<br>");
             }
-            File yourFile = new File("C:\\JavaFiles\\MyBoardGameDataBase.html");
-            yourFile.createNewFile(); // if file already exists will do nothing
-            FileWriter writer = new FileWriter(yourFile, false);
-            writer.write(sb.toString());
-            writer.close();
+                File yourFile = new File("C:\\JavaFiles\\MyBoardGameDataBase.html");
+                yourFile.createNewFile(); // if file already exists will do nothing
+                FileWriter writer = new FileWriter(yourFile, false);
+                writer.write(sb.toString());
+                writer.close();
 
         }
         catch(IOException e){
@@ -152,9 +157,11 @@ public class Manager {
             }
 
         }
-        catch(IOException e){
-            e.printStackTrace();;
+        catch(IOException e) {
+            e.printStackTrace();
+
         }
+
     }
     public void printGamesToConsole() {
         try {
@@ -171,7 +178,10 @@ public class Manager {
             FileInputStream fileIn = new FileInputStream("C:/JavaFiles/MyBoardGameDataBase.txt");
             ObjectInputStream in = new ObjectInputStream(fileIn);
             boardGames =(ArrayList<BoardGame>) in.readObject();
-        }catch (IOException i)
+        } catch(FileNotFoundException f)
+        {
+            System.out.println("File not found");
+        } catch (IOException i)
         {
             i.printStackTrace();
         }catch (ClassNotFoundException c){
